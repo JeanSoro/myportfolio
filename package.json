@@ -1,0 +1,14 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "Final Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jean Soro",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
