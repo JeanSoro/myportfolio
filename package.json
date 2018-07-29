@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Final Portfolio",
   "main": "index.js",
+  "homepage": "https://JeanSoro.github.io/myportfolio",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d public"
   },
   "author": "Jean Soro",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.2"
   }
 }
