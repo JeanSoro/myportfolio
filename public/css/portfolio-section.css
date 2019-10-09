@@ -20,11 +20,11 @@
     top: 23px;
 }
 
-#portfolio-section .title h1{
+#portfolio-section .title h1 {
     color: #16171b;
-    font-size: 2rem;
+    font-size: 3rem;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
     z-index: 1;
     position: relative;
     letter-spacing: 4px;
@@ -41,7 +41,7 @@
 
 /*---------------Portfolio display section container ends----------------------*/
 
-#portfolio-section .portfolio-container .box{
+#portfolio-section .portfolio-container .box {
     background: red;
     display: block;
     transition: all .4s ease-in-out;
@@ -55,47 +55,47 @@
 
 /*---------------Portfolio display section container Hove effect----------------------*/
 
-#portfolio-section .portfolio-container  .box:hover{
-    background: rgba(255, 255,255, 1);
-    -webkit-box-shadow: 0px 40px 75px 24px rgba(0,0,0,0.08);
-    -moz-box-shadow: 0px 40px 75px 24px rgba(0,0,0,0.08);
-    box-shadow: 0px 40px 75px 24px rgba(0,0,0,0.08);
+#portfolio-section .portfolio-container .box:hover {
+    background: rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 40px 75px 24px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0px 40px 75px 24px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 40px 75px 24px rgba(0, 0, 0, 0.08);
 }
 
 #portfolio-section .portfolio-container .box .dp-image .hover-bg {
 
-    background: rgba(255, 255,255, 0);
+    background: rgba(255, 255, 255, 0);
     transition: all .4s ease-in-out;
-    padding: 10px 20px; 
+    padding: 10px 20px;
     height: 100%;
     width: 100%;
 }
 
 #portfolio-section .portfolio-container .box:hover .dp-image .hover-bg {
-    
-    background: rgba(255, 255,255, .6);
+
+    background: rgba(255, 255, 255, .6);
     /* background: rgba(129, 16, 12, 0.8); */
     padding: 10px 20px;
-    
+
 }
 
-#portfolio-section .portfolio-container .box .dp-image .hover-bg .title{
+#portfolio-section .portfolio-container .box .dp-image .hover-bg .title {
     height: 100%;
     width: 100%;
-    
+
 }
 
-#portfolio-section .portfolio-container .box .dp-image .hover-bg .title .text{
+#portfolio-section .portfolio-container .box .dp-image .hover-bg .title .text {
     background: #000;
     border-radius: 5px;
     padding: 10px 20px;
     transition: all .5s ease-in-out;
     transform: translate3d(0, 400px, 0);
     opacity: 0;
-    
+
 }
 
-#portfolio-section .portfolio-container .box:hover .dp-image .hover-bg .title .text{
+#portfolio-section .portfolio-container .box:hover .dp-image .hover-bg .title .text {
     background: #000;
     border-radius: 5px;
     padding: 10px 20px;
@@ -109,14 +109,14 @@
 
 /* Display box 1 */
 #portfolio-section .portfolio-container .box.display1 {
-    
+
     grid-column: 1 / 3;
     grid-row: 1 / 2;
 }
 
 #portfolio-section .portfolio-container .box.display1 .dp-image {
 
-    background:url('https://cdn.dribbble.com/users/257709/screenshots/4695956/singapoure_shot_0_5x.png');
+    background: url('https://cdn.dribbble.com/users/257709/screenshots/4695956/singapoure_shot_0_5x.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -126,14 +126,14 @@
 
 /* Display box 2 */
 #portfolio-section .portfolio-container .box.display2 {
-    
+
     grid-column: 3 / 4;
     grid-row: 1 / 4;
 }
 
 #portfolio-section .portfolio-container .box.display2 .dp-image {
 
-    background:url('https://cdn.dribbble.com/users/2008861/screenshots/4671895/mulechain-1.5.gif');
+    background: url('https://cdn.dribbble.com/users/2008861/screenshots/4671895/mulechain-1.5.gif');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -143,14 +143,14 @@
 
 /* Display box 3 */
 #portfolio-section .portfolio-container .box.display3 {
-    
+
     grid-column: 1 / 2;
     grid-row: 2 / 4;
 }
 
 #portfolio-section .portfolio-container .box.display3 .dp-image {
 
-    background:url('https://cdn.dribbble.com/users/77142/screenshots/2994583/primetower-smaller-2.gif');
+    background: url('https://cdn.dribbble.com/users/77142/screenshots/2994583/primetower-smaller-2.gif');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -160,14 +160,14 @@
 
 /* Display box 4 */
 #portfolio-section .portfolio-container .box.display4 {
-    
+
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
 
 #portfolio-section .portfolio-container .box.display4 .dp-image {
 
-    background:url('https://cdn.dribbble.com/users/817723/screenshots/4337840/tgdh_workshops_1x.png');
+    background: url('https://cdn.dribbble.com/users/817723/screenshots/4337840/tgdh_workshops_1x.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -183,7 +183,7 @@
 
 #portfolio-section .portfolio-container .box.display5 .dp-image {
 
-    background:url('https://cdn.dribbble.com/users/257709/screenshots/2958133/facebook_800x600_v2_1x.png');
+    background: url('https://cdn.dribbble.com/users/257709/screenshots/2958133/facebook_800x600_v2_1x.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -199,7 +199,7 @@
 
 #portfolio-section .portfolio-container .box.display6 .dp-image {
 
-    background:url('https://cdn.dribbble.com/users/877784/screenshots/4361532/mockup-3.gif');
+    background: url('https://cdn.dribbble.com/users/877784/screenshots/4361532/mockup-3.gif');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -209,14 +209,14 @@
 
 /* Display box 7 */
 #portfolio-section .portfolio-container .box.display7 {
-    
+
     grid-column: 3 / 4;
     grid-row: 4 / 6;
 }
 
 #portfolio-section .portfolio-container .box.display7 .dp-image {
 
-    background:url('https://cdn.dribbble.com/users/1613471/screenshots/4265142/dribbble-short-1_1x.jpg');
+    background: url('https://cdn.dribbble.com/users/1613471/screenshots/4265142/dribbble-short-1_1x.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -241,26 +241,32 @@
         grid-column: 1 / 2;
         grid-row: 1 / 3;
     }
+
     #portfolio-section .portfolio-container .box.display2 {
         grid-column: 2 / 3;
         grid-row: 1 / 3;
     }
+
     #portfolio-section .portfolio-container .box.display3 {
         grid-column: 1 / 2;
         grid-row: 3 / 5;
     }
+
     #portfolio-section .portfolio-container .box.display4 {
         grid-column: 2 / 3;
         grid-row: 3 / 5;
     }
+
     #portfolio-section .portfolio-container .box.display5 {
         grid-column: 1 / 2;
         grid-row: 5 / 7;
     }
+
     #portfolio-section .portfolio-container .box.display6 {
         grid-column: 2 / 3;
         grid-row: 5 / 7;
     }
+
     #portfolio-section .portfolio-container .box.display7 {
         grid-column: 1 / 4;
         grid-row: 7 / 9;
@@ -283,26 +289,32 @@
         grid-column: 1 / 4;
         grid-row: 1 / 2;
     }
+
     #portfolio-section .portfolio-container .box.display2 {
         grid-column: 1 / 4;
         grid-row: 2 / 3;
     }
+
     #portfolio-section .portfolio-container .box.display3 {
         grid-column: 1 / 4;
         grid-row: 3 / 4;
     }
+
     #portfolio-section .portfolio-container .box.display4 {
         grid-column: 1 / 4;
         grid-row: 4 / 5;
     }
+
     #portfolio-section .portfolio-container .box.display5 {
         grid-column: 1 / 4;
         grid-row: 5 / 6;
     }
+
     #portfolio-section .portfolio-container .box.display6 {
         grid-column: 1 / 4;
         grid-row: 6 / 7;
     }
+
     #portfolio-section .portfolio-container .box.display7 {
         grid-column: 1 / 4;
         grid-row: 7 / 8;

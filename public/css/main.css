@@ -12,6 +12,7 @@
 
 body {
     background: #eeeeee;
+
 }
 
 
@@ -26,7 +27,7 @@ header {
     justify-content: space-between
 }
 
-header .logo{
+header .logo {
     color: #fff;
     font-size: 1.5rem;
     font-weight: 700;
@@ -35,13 +36,13 @@ header .logo{
 }
 
 header .logo .name {
-    background:  #0fe29ce1;
+    background: #0fe29ce1;
     padding: 15px 20px;
     text-decoration: none;
     color: #fff;
 }
 
-header .header-menu{
+header .header-menu {
     font-size: 1.2rem;
     font-weight: 500;
     text-transform: uppercase;
@@ -51,7 +52,7 @@ header .header-menu{
     align-items: center;
 }
 
-header .header-menu a{
+header .header-menu a {
     color: #0fe29ce1;
     font-size: 1.2rem;
     font-weight: 500;
@@ -59,17 +60,17 @@ header .header-menu a{
     text-transform: uppercase;
     text-decoration: none;
     transition: all .1s ease-in-out;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
 }
 
-header .header-menu a:hover{
-    color:#1d1d1d;
+header .header-menu a:hover {
+    color: #1d1d1d;
     font-weight: 700;
 }
 
-header .hamburger-menu{
-    color:  #0fe29ce1;
+header .hamburger-menu {
+    color: #0fe29ce1;
     cursor: pointer;
     font-size: 1.7rem;
     display: flex;
@@ -91,49 +92,49 @@ header .hamburger-menu{
     height: 100vh;
     transform: translate3d(-100%, 0, 0);
     transition: all .4s ease-in-out;
-    -webkit-box-shadow: 2px 0px 78px -16px rgba(0,0,0,0.75);
-    -moz-box-shadow: 2px 0px 78px -16px rgba(0,0,0,0.75);
-    box-shadow: 2px 0px 78px -16px rgba(0,0,0,0.75);
-    
+    -webkit-box-shadow: 2px 0px 78px -16px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 0px 78px -16px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 0px 78px -16px rgba(0, 0, 0, 0.75);
+
 }
 
-.mobile-menu.active{
+.mobile-menu.active {
     transform: translate3d(0, 0, 0);
 }
 
-.mobile-menu a{
+.mobile-menu a {
     padding: 15px;
     text-decoration: none;
     color: #000;
 }
 
-.mobile-menu a:hover{
-    
+.mobile-menu a:hover {
+
     text-decoration: none;
     color: #ffff;
-    background:  #0fe29ce1;
+    background: #0fe29ce1;
 }
 
 
 
 /*Tablets*/
 @media only screen and (max-width: 960px) {
-    .container{
+    .container {
         width: 100%;
     }
 }
 
 /*Phones*/
 @media only screen and (max-width: 767px) {
-    header .header-menu{
+    header .header-menu {
         display: none;
     }
 
-    header .hamburger-menu{
+    header .hamburger-menu {
         display: flex;
     }
 
-    header .logo{
+    header .logo {
         font-size: 1.2rem;
     }
 
