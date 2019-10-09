@@ -10,11 +10,11 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     margin: 0 auto;
 }
 
@@ -26,11 +26,11 @@
     top: 23px;
 }
 
-#testimonials-section .title h1{
+#testimonials-section .title h1 {
     color: #16171b;
     font-size: 2rem;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
     z-index: 1;
     position: relative;
     letter-spacing: 4px;
@@ -43,29 +43,22 @@
     padding: 100px 0;
 }
 
-#testimonials-section .testimonials-container .testimonial-centre{
+#testimonials-section .testimonials-container .testimonial-centre {
     background: #fff;
     padding: 60px;
-    background: rgba(255, 255,255, 1);
-    -webkit-box-shadow: 0px 40px 75px 24px rgba(0,0,0,0.08);
-    box-shadow: 0px 40px 75px 24px rgba(0,0,0,0.08);
+    background: rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 40px 75px 24px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 40px 75px 24px rgba(0, 0, 0, 0.08);
 }
 
-#testimonials-section 
-    .testimonials-container 
-        .testimonial-centre 
-            .testimonial-centre-header {
-                    display: -webkit-box;
-                    display: -ms-flexbox;
-                    display: flex;
-                    padding-bottom: 50px;
+#testimonials-section .testimonials-container .testimonial-centre .testimonial-centre-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 50px;
 }
 
-#testimonials-section 
-.testimonials-container 
-.testimonial-centre 
-.testimonial-centre-header 
-.author-img {
+#testimonials-section .testimonials-container .testimonial-centre .testimonial-centre-header .author-img {
     height: 150px;
     width: 150px;
     background-position: center center !important;
@@ -74,83 +67,63 @@
     /* background-color: #f2f3f5 !important; */
 }
 
-#testimonials-section 
-    .testimonials-container 
-        .testimonial-centre 
-            .testimonial-centre-header 
-                .author-img img{
+#testimonials-section .testimonials-container .testimonial-centre .testimonial-centre-header .author-img img {
     width: 100%;
 }
 
-#testimonials-section .testimonials-container
- .testimonial-centre 
- .testimonial-centre-header 
- .info {
+#testimonials-section .testimonials-container .testimonial-centre .testimonial-centre-header .info {
 
     display: -webkit-box;
-
     display: -ms-flexbox;
-
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     padding-left: 40px;
 }
 
-#testimonials-section .testimonials-container
- .testimonial-centre 
- .testimonial-centre-header 
- .info h4{
+#testimonials-section .testimonials-container .testimonial-centre .testimonial-centre-header .info h4 {
     color: #13161d;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 1rem;
+    font-size: 1.5rem;
 }
 
-#testimonials-section .testimonials-container
- .testimonial-centre 
- .testimonial-centre-header 
- .info span {
-    color: #929294;;
+#testimonials-section .testimonials-container .testimonial-centre .testimonial-centre-header .info span {
+    color: #929294;
+    ;
     font-weight: 400;
     text-transform: capitalize;
     letter-spacing: 2px;
 }
 
-#testimonials-section 
-.testimonials-container
-.testimonial-centre p{
+#testimonials-section .testimonials-container .testimonial-centre p {
     color: #929294;
-    font-weight: 400;
-    letter-spacing: 2px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
     line-height: 1.7;
     font-size: 1.4rem;
 }
 
-#testimonials-section 
-.testimonials-container
-.testimonial-sides {
+#testimonials-section .testimonials-container .testimonial-sides {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;  
+    -ms-flex-align: center;
+    align-items: center;
 }
 
-#testimonials-section 
-.testimonials-container
-.testimonial-sides
-.person-img {
+#testimonials-section .testimonials-container .testimonial-sides .person-img {
     background-position: center center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -159,10 +132,7 @@
     width: 100%;
 }
 
-#testimonials-section 
-.testimonials-container
-.testimonial-sides
-.person-img .hover-bg {
+#testimonials-section .testimonials-container .testimonial-sides .person-img .hover-bg {
     background: rgba(39, 129, 12, 0);
     height: 100%;
     width: 100%;
@@ -171,19 +141,13 @@
     cursor: pointer;
 }
 
-#testimonials-section 
-.testimonials-container
-.testimonial-sides:hover
-.person-img .hover-bg {
-    background: rgba(39, 129, 12, 0.8);
+#testimonials-section .testimonials-container .testimonial-sides:hover .person-img .hover-bg {
+    background: rgba(47, 155, 4, 0.842);
     height: 100%;
     width: 100%;
 }
 
-#testimonials-section 
-.testimonials-container
-.testimonial-sides
-.person-img .hover-bg .name {
+#testimonials-section .testimonials-container .testimonial-sides .person-img .hover-bg .name {
     color: #fff;
     font-weight: 100;
     font-size: 2rem;
@@ -193,22 +157,19 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     height: 100%;
     width: 100%;
-    -webkit-transform: translate3d(0, 200px,0);
-            transform: translate3d(0, 200px,0);
+    -webkit-transform: translate3d(0, 200px, 0);
+    transform: translate3d(0, 200px, 0);
     opacity: 0;
 }
 
-#testimonials-section 
-.testimonials-container
-.testimonial-sides:hover
-.person-img .hover-bg .name {
+#testimonials-section .testimonials-container .testimonial-sides:hover .person-img .hover-bg .name {
     color: #fff;
     font-weight: 100;
     font-size: 2rem;
@@ -218,15 +179,15 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     height: 100%;
     width: 100%;
-    -webkit-transform: translate3d(0, 0,0);
-            transform: translate3d(0, 0,0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
     opacity: 1;
 }
 
@@ -250,41 +211,33 @@
         padding: 100px 0;
     }
 
-    #testimonials-section 
-    .testimonials-container
-    .testimonial-sides.testimonial-left-image {
+    #testimonials-section .testimonials-container .testimonial-sides.testimonial-left-image {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
     }
 
-    #testimonials-section 
-    .testimonials-container
-    .testimonial-centre {
+    #testimonials-section .testimonials-container .testimonial-centre {
         grid-column: 1 / 3;
         grid-row: 2 / 3;
         padding: 20px;
     }
 
-    #testimonials-section 
-    .testimonials-container
-    .testimonial-centre p{
+    #testimonials-section .testimonials-container .testimonial-centre p {
         font-size: .9rem;
     }
 
 
-    #testimonials-section 
-    .testimonials-container
-    .testimonial-sides.testimonial-right-image {
+    #testimonials-section .testimonials-container .testimonial-sides.testimonial-right-image {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
     }
 
-    #testimonials-section .title h1{
+    #testimonials-section .title h1 {
         color: #16171b;
         font-size: 1.6rem;
         font-weight: 600;
         letter-spacing: 3px;
     }
 
-    
+
 }
