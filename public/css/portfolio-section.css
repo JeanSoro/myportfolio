@@ -116,7 +116,8 @@
 
 #portfolio-section .portfolio-container .box.display1 .dp-image {
 
-    background: url('https://cdn.dribbble.com/users/257709/screenshots/4695956/singapoure_shot_0_5x.png');
+    /* background: url('https://cdn.dribbble.com/users/257709/screenshots/4695956/singapoure_shot_0_5x.png'); */
+    background: url('../img/gym_isometric.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -133,7 +134,8 @@
 
 #portfolio-section .portfolio-container .box.display2 .dp-image {
 
-    background: url('https://cdn.dribbble.com/users/2008861/screenshots/4671895/mulechain-1.5.gif');
+    /* background: url('https://cdn.dribbble.com/users/2008861/screenshots/4671895/mulechain-1.5.gif'); */
+    background: url('../img/raptors_1_800x600.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -216,7 +218,7 @@
 
 #portfolio-section .portfolio-container .box.display7 .dp-image {
 
-    background: url('https://cdn.dribbble.com/users/1613471/screenshots/4265142/dribbble-short-1_1x.jpg');
+    background: url('../img/ecommerce-gif_400x300.gif');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
