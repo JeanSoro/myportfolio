@@ -14,13 +14,16 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
         integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js">
     <title>Jean Soro | Web Developer</title>
 </head>
 
 <body>
     <header>
-        <div class="logo">
+        <div class="animated pulse logo">
             <a href="index.html" class="name">Jean Soro</div>
         </div>
         </div>
@@ -57,7 +60,7 @@
             </div>
         </div>
     </section>
-    <section id="services-section">
+    <section class="wow slideInLeft" id="services-section">
         <div class="container">
             <div class="title">
                 <div class="circle"></div>
@@ -70,9 +73,9 @@
                     <p>I write and debug code using latest versions of core Front-End programming languages like HTML5,
                         CSS3(SASS) and JavaScript ES6, browsers dev tools, CSS frameworks like BootStrap4 and
                         Materialize. I am currently getting up to speed with
-                        React16 and Redux state management but my main focus remain on core Vanilla Javascript
+                        React16 and Redux state management while still focusing on core Vanilla Javascript
                         fundamentals. I automate my workflow with Gulp and Webpack when
-                        needed. I am planning on learning PHP in 2020</p>
+                        needed.</p>
                 </div>
                 <div class="box red">
                     <i class="fas fa-chart-bar"></i><i class="fas fa-shopping-cart"></i>
@@ -80,7 +83,7 @@
                     <p>Knowledge of Shopify CMS platform. I create and optimize stores for speed and
                         profitability, using best UX practices and relevant Shopify apps.
                         Using Google Marketing Platform applications to analyze online stores data and
-                        come up with profitable marketing campaigns. On-page / Off-page SEO, backlinks
+                        come up with profitable marketing campaigns. On-page / Off-page SEO.
                     </p>
                     <!-- <i class="fas fa-database"></i><i class="fab fa-php"></i>
                     <h5>Currently learning: Back-End Development</h5>
@@ -91,26 +94,27 @@
                 <div class="box yellow">
                     <i class="fas fa-pen-fancy"></i><i class="fas fa-tachometer-alt"></i>
                     <h5>Optimization / Testing</h5>
-                    <p>Responsive UI/UX using native CSS3 methods such as Media Queries, Flexbox and CSS Grid.
-                        Accessibilty best practices and Cross-browser compability while focusing on rendering speed. BEM
-                        methodology for clean and re-usable code CSS. Debugging JavaScript.
+                    <p>Responsive UI/UX using modern native CSS3 methods such as Media Queries, Flexbox and CSS Grid.
+                        Accessibility best practices and Cross-browser compatibility while focusing on rendering speed.
+                        BEM
+                        methodology for clean and re-usable code when needed. Debugging JavaScript.
                     </p>
                 </div>
             </div>
         </div>
     </section>
-    <section id="portfolio-section">
+    <section class="wow slideInRight" data-wow-offset="65" data-wow-delay="0s" id="portfolio-section">
         <div class="container">
             <div class="title">
                 <div class="square"></div>
                 <h1>Projects</h1>
             </div>
             <div class="portfolio-container">
-                <a href="#" class="box display1">
+                <a href="project3.html" class="box display1">
                     <div class="dp-image">
                         <div class="hover-bg">
                             <div class="title">
-                                <div class="text">Coming soon: fitness Centre Website</div>
+                                <div class="text">Adidas Product launch</div>
                             </div>
                         </div>
                     </div>
@@ -137,7 +141,7 @@
                     <div class="dp-image">
                         <div class="hover-bg">
                             <div class="title">
-                                <div class="text">Coming soon: PHP project</div>
+                                <div class="text">Coming soon: React+Redux social network</div>
                             </div>
                         </div>
                     </div>
@@ -146,7 +150,7 @@
                     <div class="dp-image">
                         <div class="hover-bg">
                             <div class="title">
-                                <div class="text">Coming mid 2020: Node.js Project</div>
+                                <div class="text">Coming soon: React Car dealership</div>
                             </div>
                         </div>
                     </div>
@@ -207,18 +211,18 @@
                         </p>
                     </div>
                     <div class="info-box">
-                        <h4>E-commerce manager - NRML Clothing Inc (Shopify plus Account)</h4>
+                        <h4>E-commerce manager - NRML Clothing Inc (Shopify+ Account)</h4>
                         <span class="date">September 2018 - June 2019</span>
                         <p>- Optimized E-commerce platform using UX/UI best practices during final
                             stage of website development to ensure smooth website launch and customers satisfaction.
                             continuously planned, organized and evaluated the
                             design, development and
-                            maintenance of site
+                            maintenance of site.
                             - Worked in collaboration with 3rd party marketing firm, in-house designer and
                             Shopify+
                             Merchant success manager to come up
                             with
-                            creative solution -Lead team of 6 - Implemented SEO strategy that resulted in 45% increase
+                            creative solution - Lead team of 6 - Implemented SEO strategy that resulted in 45% increase
                             in
                             traffic to site, as
                             well as 50% increase in sales in comparison to previous year.</p>
@@ -409,8 +413,8 @@
                         I am curious about, breathe and love technology, and am constantly sharpening my skills to
                         prepare myself to solve
                         bigger and better problems
-                        in a creative way, while keeping it all simple. Not afraid to give or ask for help. Hitting the
-                        ground running is my superpower.
+                        in a creative way, while keeping it all simple. Not afraid to give or ask for help, hitting the
+                        ground running is what I do.
                     </p>
                 </div>
                 <div class="testimonial-sides testimonial-right-image">
@@ -435,6 +439,10 @@
     </footer>
     <script src="js/app.js"></script>
     <script src="js/polyfill.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>
