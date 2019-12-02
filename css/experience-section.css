@@ -178,7 +178,7 @@
     }
 
     #experience-section .experience-container {
-        grid-template-columns: 1f;
+        grid-template-columns: 1fr;
     }
 
     #experience-section .experience-container .large-icons {
