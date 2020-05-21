@@ -4,7 +4,7 @@
 
 
 #experience-section .large-title {
-    color: black;
+    color: var(--title-black);
     font-weight: 300;
     font-size: 4rem;
     text-align: center;
@@ -126,7 +126,7 @@
 }
 
 #experience-section .experience-container .info .info-box .date {
-    color: black;
+    color: var(--title-black);
     font-size: .9rem;
     font-weight: 600;
     text-transform: capitalize;
@@ -136,7 +136,7 @@
 }
 
 #experience-section .experience-container .info .info-box p {
-    color: navy;
+    color: var(--experience-text);
     font-size: 1rem;
     font-weight: 400;
     text-transform: capitalize;

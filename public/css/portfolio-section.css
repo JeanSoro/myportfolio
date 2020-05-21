@@ -21,7 +21,7 @@
 }
 
 #portfolio-section .title h1 {
-    color: #16171b;
+    color: var(--title-black);
     font-size: 3rem;
     text-transform: uppercase;
     font-weight: 500;

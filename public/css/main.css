@@ -9,16 +9,40 @@
 @import "../css/portfolio-projects.css";
 @import "../css/footer-section.css";
 
+:root {
+    --mainGreen: #0fe29ce1;
+    --mainBackground: #f9fafc;
+    /* --mainBackground: black; */
+    --title-color: #fff;
+    --title-black: #13171a;
+    --experience-text: navy;
+    /* --icons-color: #13171a; */
+    --hover-background: rgba(255, 255, 255, 1);
+    --nav-hover: #1d1d1d;
+}
 
-body {
-    background: #eeeeee;
+.dark-theme {
+    --mainBackground: #181621;
+    --mainGreen: #fff;
+    --title-color: #333;
+    --title-black: #fff;
+    --experience-text: #fff;
+    --hover-background: rgb(61, 61, 61);
+    --nav-hover: #fff;
 
 }
 
+body {
+    background-color: var(--mainBackground);
+    transition: all 1s ease-in-out;
+
+}
 
 .container {
     max-width: 1150px;
     margin: 0 auto;
+
+
 }
 
 header {
@@ -40,10 +64,10 @@ header .logo {
 }
 
 header .logo .name {
-    background: #0fe29ce1;
+    background: var(--mainGreen);
     padding: 15px 20px;
     text-decoration: none;
-    color: #fff;
+    color: var(--title-color);
 }
 
 header .header-menu {
@@ -57,7 +81,7 @@ header .header-menu {
 }
 
 header .header-menu a {
-    color: #0fe29ce1;
+    color: var(--mainGreen);
     font-size: 1.2rem;
     font-weight: 500;
     padding: 0 10px;
@@ -69,12 +93,12 @@ header .header-menu a {
 }
 
 header .header-menu a:hover {
-    color: #1d1d1d;
+    color: var(--nav-hover);
     font-weight: 700;
 }
 
 header .hamburger-menu {
-    color: #0fe29ce1;
+    color: var(--mainGreen);
     cursor: pointer;
     font-size: 1.7rem;
     display: flex;
@@ -116,7 +140,7 @@ header .hamburger-menu {
 
     text-decoration: none;
     color: #ffff;
-    background: #0fe29ce1;
+    background: var(--mainGreen);
 }
 
 

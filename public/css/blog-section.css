@@ -1,6 +1,7 @@
 #blog-section {
     padding: 100px 15px;
-    background: #f9fafc;
+    background: var(--title-color);
+    /* background: black; */
 }
 
 #blog-section .title h1 {
@@ -9,6 +10,7 @@
     font-weight: 300;
     margin-bottom: 80px;
     text-transform: uppercase;
+    color: var(--title-black);
 }
 
 #blog-section .blog-container {
@@ -38,7 +40,7 @@
 }
 
 #blog-section .blog-container .post .details {
-    background: #fff;
+    background: var(--title-color);
     padding: 35px;
     position: absolute;
     top: 100%;
@@ -51,7 +53,7 @@
 
 #blog-section .blog-container .post .details h4 {
     font-size: 1.2rem;
-    color: #13171a;
+    color: var(--title-black);
     text-transform: uppercase;
     margin-bottom: 1.8rem;
     font-weight: 500;
@@ -68,7 +70,7 @@
 }
 
 #blog-section .blog-container .post .more {
-    background: #fff;
+    background: var(--title-color);
     bottom: 0;
     padding: 35px;
     position: absolute;
