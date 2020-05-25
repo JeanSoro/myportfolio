@@ -15,14 +15,13 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
         integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js">
     <title>Jean Soro | Web Developer</title>
 </head>
 
 <body>
-    <header>
+    <header id="brand">
         <div class="animated pulse logo">
             <a href="index.html" class="name">Jean Soro </a>
         </div>
@@ -35,7 +34,7 @@
             <a href="index.html#blog-section">Blog</a>
             <a href="index.html#testimonials-section">About</a>
             <a href="#">
-                <i class="fas fa-adjust darkToggle"></i>
+                <i class="fas fa-moon darkToggle"></i>
             </a>
         </div>
         <div class="hamburger-menu">
@@ -74,11 +73,11 @@
                     <i class="fab fa-html5"></i> <i class="fab fa-react"></i> <i class="fab fa-js"></i>
                     <h5>Front-End Development</h5>
                     <p>I write and debug code using latest versions of core Front-End programming languages like HTML5,
-                        CSS3(SASS) and JavaScript ES6, browsers dev tools, CSS frameworks like BootStrap4 and
-                        Materialize. I am currently learning Redux sagas and React Testing+Performance, while still
-                        focusing on Vanilla Javascript core fundamentals, but always open to learning other frameworks.
-                        I automate my workflow with Gulp and Webpack when
-                        needed.</p>
+                        CSS3(SASS) and JavaScript ES6, CSS frameworks like BootStrap4 and
+                        Tailwind. My framework of choice as far as client side Javascript is React,
+                        but I am open to getting up to speed and productive with Angular or Vue.js if needed, as I still
+                        maintain a focus on core Vanilla Javascript fundamentals that transcend frameworks.
+                        I automate my workflow with tools like parcels, Gulp or Webpack.</p>
                 </div>
                 <div class="box red">
                     <i class="fas fa-chart-bar"></i><i class="fas fa-shopping-cart"></i>
@@ -100,7 +99,8 @@
                     <p>Responsive UI/UX using modern native CSS3 methods such as Media Queries, Flexbox and CSS Grid.
                         Accessibility best practices and Cross-browser compatibility while focusing on rendering speed.
                         BEM
-                        methodology for clean and re-usable code when needed. Debugging JavaScript.
+                        methodology for clean and re-usable code when needed. Debugging JavaScript with chrome developer
+                        tools.
                     </p>
                 </div>
             </div>
@@ -171,7 +171,7 @@
                     <div class="dp-image">
                         <div class="hover-bg">
                             <div class="title">
-                                <div class="text">E-commerce Prototype</div>
+                                <div class="text">React E-commerce</div>
                             </div>
                         </div>
                     </div>
@@ -443,6 +443,9 @@
         <h5>copyright &copy; 2020 Jean Soro. All rights reserved.</h5>
         <h6>Web Developer</h6>
     </footer>
+    <a href="#brand" id="back-to-top">
+        <i class="backToTopBtn fas fa-arrow-up fa-2x"></i>
+    </a>
     <script src="js/app.js"></script>
     <script src="js/polyfill.js"></script>
     <script src="js/wow.min.js"></script>

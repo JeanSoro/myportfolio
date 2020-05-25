@@ -6,8 +6,14 @@
     position: relative;
     width: 200px;
     height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin: 0 auto;
 }
@@ -45,6 +51,7 @@
 #portfolio-section .portfolio-container .box {
     background: red;
     display: block;
+    -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
     cursor: pointer;
     color: #fff;
@@ -59,13 +66,13 @@
 #portfolio-section .portfolio-container .box:hover {
     background: rgba(255, 255, 255, 1);
     -webkit-box-shadow: 0px 40px 75px 24px rgba(0, 0, 0, 0.08);
-    -moz-box-shadow: 0px 40px 75px 24px rgba(0, 0, 0, 0.08);
     box-shadow: 0px 40px 75px 24px rgba(0, 0, 0, 0.08);
 }
 
 #portfolio-section .portfolio-container .box .dp-image .hover-bg {
 
     background: rgba(255, 255, 255, 0);
+    -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
     padding: 10px 20px;
     height: 100%;
@@ -90,7 +97,9 @@
     background: #000;
     border-radius: 5px;
     padding: 10px 20px;
+    -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
+    -webkit-transform: translate3d(0, 400px, 0);
     transform: translate3d(0, 400px, 0);
     opacity: 0;
 
@@ -101,6 +110,7 @@
     border-radius: 5px;
     padding: 10px 20px;
     /* transition: transform .3s ease-in-out .2s; */
+    -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     opacity: 1;
 }
@@ -170,7 +180,7 @@
 
 #portfolio-section .portfolio-container .box.display4 .dp-image {
 
-    background: url('https://scontent-frx5-1.cdninstagram.com/v/t51.2885-15/e35/82153941_176177446823038_5290138554986044984_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_cat=110&_nc_ohc=sb4otdapsvcAX9eQIEv&oh=63f6889902afa85a425fd7de9472bf77&oe=5ECAA6BB');
+    background: url('../img/soft_ui.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
