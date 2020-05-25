@@ -2,12 +2,12 @@
     padding: 100px 15px;
 }
 
-#portfolio-projects .project-image{
+#portfolio-projects .project-image {
     width: 100%;
     margin-bottom: 3rem;
 }
 
-#portfolio-projects .project-image .img{
+#portfolio-projects .project-image .img {
     height: 550px;
     background-size: cover !important;
     background-position: top center !important;
@@ -15,22 +15,23 @@
     /* background-attachment: fixed !important; */
 }
 
-#portfolio-projects h1{
+#portfolio-projects h1 {
     font-size: 4rem;
     font-weight: 600;
     font-style: italic;
     margin-bottom: 1rem;
+    color: var(--title-black)
 }
 
 #portfolio-projects .info .buttons {
     padding: 20px 0;
 }
 
-#portfolio-projects .info .buttons a{
+#portfolio-projects .info .buttons a {
     display: inline-block;
     padding: 10px 20px;
     border-radius: 3px;
-    color:#fff;
+    color: #fff;
     background: #000;
     text-decoration: none;
     text-transform: capitalize;
@@ -38,67 +39,65 @@
     transition: all .3s ease-in-out;
 }
 
-#portfolio-projects .info .buttons .fas{
-    color: #0fe29ce1;
+#portfolio-projects .info .buttons .fas {
+    color: var(--mainGreen);
     margin-right: 10px;
 }
 
-#portfolio-projects .info .buttons a:hover{
-    background: #0fe29ce1;  
+#portfolio-projects .info .buttons a:hover {
+    background: var(--mainGreen);
+    color: black;
 }
 
-#portfolio-projects .info .buttons a:hover .fas{
-    color: #1d1d1c;  
+#portfolio-projects .info .buttons a:hover .fas {
+    color: #1d1d1c;
 }
 
-#portfolio-projects p{
+#portfolio-projects p {
     display: inline-block;
     font-size: 1.3rem;
     line-height: 1.7;
     border-radius: 3px;
     margin-bottom: 1.8rem;
-    color:#929294;
+    color: #929294;
     text-decoration: none;
     text-transform: uppercase;
 }
 
-#portfolio-projects .technologies{
-    
-}
-
-#portfolio-projects .technologies h3{
+#portfolio-projects .technologies h3 {
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
     margin: 2rem;
+    color: var(--title-black)
 }
 
-#portfolio-projects .technologies .icons{
+#portfolio-projects .technologies .icons {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(4, 1fr);
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     justify-items: center;
-  
+
 }
 
-#portfolio-projects .technologies .icons img{
+#portfolio-projects .technologies .icons img {
     cursor: pointer;
     -webkit-filter: grayscale(100%);
-            filter: grayscale(100%);
+    filter: grayscale(100%);
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
 
-#portfolio-projects .technologies .icons img:hover{
-    
+#portfolio-projects .technologies .icons img:hover {
+
     -webkit-filter: grayscale(0);
-            filter: grayscale(0)
+    filter: grayscale(0)
 }
 
-#portfolio-projects .technologies .icons .icon img{
+#portfolio-projects .technologies .icons .icon img {
     width: 100%;
     max-width: 70px;
 }
@@ -112,7 +111,7 @@
     }
 
     #portfolio-projects h3 {
-       
+
         text-align: center;
     }
 
@@ -123,24 +122,24 @@
     /* #portfolio-projects .video iframe{
         width: 100% !important;
     } */
-    
+
 }
 
 /*Phones*/
 @media only screen and (max-width: 767px) {
 
-    #portfolio-projects .info .buttons{
+    #portfolio-projects .info .buttons {
         text-align: center;
     }
 
-    #portfolio-projects .info .buttons a{
+    #portfolio-projects .info .buttons a {
         margin-bottom: 10px;
     }
 
-    #portfolio-projects .technologies .icons{
+    #portfolio-projects .technologies .icons {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        
+
     }
-    
+
 }

@@ -1,5 +1,5 @@
 footer {
-    background:#f9fafc;
+    background: var(--mainBackground);
     padding: 100px 15px;
 
 }
@@ -9,8 +9,8 @@ footer .social-container {
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     max-width: 400px;
     margin: 0 auto;
 }
@@ -26,7 +26,7 @@ footer .social-container a {
 }
 
 footer .social-container a:hover {
-    color:#0fe29ce1;
+    color: var(--mainGreen);
 }
 
 footer h5 {
@@ -39,18 +39,14 @@ footer h5 {
 
 footer h6 {
     font-size: .9rem;
-    color: #000;
+    color: var(--title-black);
     text-transform: capitalize;
     text-align: center;
-    
+
 }
 
 /*Tablets*/
-@media only screen and (max-width: 960px) {
-
-}
+@media only screen and (max-width: 960px) {}
 
 /*Phones*/
-@media only screen and (max-width: 767px) {
-
-}
+@media only screen and (max-width: 767px) {}

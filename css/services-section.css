@@ -53,22 +53,34 @@
 }
 
 #services-section .services-container .box:hover {
-    background: rgba(255, 255, 255, 1);
+    background: var(--hover-background);
     -webkit-box-shadow: 0px 40px 75px 24px rgba(0, 0, 0, 0.08);
     box-shadow: 0px 40px 75px 24px rgba(0, 0, 0, 0.08);
+
 }
 
 #services-section .services-container .box .fas {
     font-size: 2rem;
     margin-bottom: 2rem;
+    color: var(--title-black);
 
 }
+
+/* #services-section .services-container .box:hover .fas {
+    color: var(--title-black);
+
+} */
 
 #services-section .services-container .box .fab {
     font-size: 2rem;
     margin-bottom: 2rem;
-
+    color: var(--title-black);
 }
+
+/* #services-section .services-container .box:hover .fab {
+    color: var(--title-black);
+
+} */
 
 #services-section .services-container .box h5 {
     font-size: 1rem;
@@ -76,6 +88,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 2rem;
+    color: var(--title-black);
 }
 
 #services-section .services-container .box p {
