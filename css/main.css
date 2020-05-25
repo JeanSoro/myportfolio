@@ -193,6 +193,7 @@ header .hamburger-menu {
     bottom: 20px;
     right: 5px;
     z-index: 99;
+    display: none;
 }
 
 
