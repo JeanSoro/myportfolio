@@ -13,13 +13,13 @@
     left: -75px;
 }
 
-#experience-section .experience-container {
+#experience-section .experience-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
 
-#experience-section .experience-container .large-icons .square {
+#experience-section .experience-wrapper .large-icons .square {
     display: inline-block;
     border: 30px solid navy;
     padding: 5px;
@@ -27,7 +27,7 @@
     top: -100px;
 }
 
-#experience-section .experience-container .large-icons .square .blue-box {
+#experience-section .experience-wrapper .large-icons .square .blue-box {
     background: navy;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -48,7 +48,7 @@
     letter-spacing: 2px;
 }
 
-#experience-section .experience-container .large-icons .triangle {
+#experience-section .experience-wrapper .large-icons .triangle {
     width: 0;
     height: 0;
     border-style: solid;
@@ -57,7 +57,7 @@
     position: relative;
 }
 
-#experience-section .experience-container .large-icons .triangle .triangle-box {
+#experience-section .experience-wrapper .large-icons .triangle .triangle-box {
     width: 0;
     height: 0;
     border-style: solid;
@@ -73,13 +73,13 @@
     color: darkgrey;
 }
 
-#experience-section .experience-container .large-icons .triangle .triangle-box .text {
+#experience-section .experience-wrapper .large-icons .triangle .triangle-box .text {
     position: relative;
     top: 98px;
     left: -29px;
 }
 
-#experience-section .experience-container .large-icons .circle {
+#experience-section .experience-wrapper .large-icons .circle {
     display: inline-block;
     border: 20px solid #ffc853;
     padding: 5px;
@@ -89,7 +89,7 @@
     position: relative;
 }
 
-#experience-section .experience-container .large-icons .white-box {
+#experience-section .experience-wrapper .large-icons .white-box {
     color: #ffc853;
     border-radius: 50%;
     display: -webkit-box;
@@ -109,15 +109,15 @@
     text-transform: uppercase;
 }
 
-#experience-section .experience-container .info {
+#experience-section .experience-wrapper .info {
     padding: 80px 0 0;
 }
 
-#experience-section .experience-container .info .info-box {
+#experience-section .experience-wrapper .info .info-box {
     padding: 15px;
 }
 
-#experience-section .experience-container .info .info-box h4 {
+#experience-section .experience-wrapper .info .info-box h4 {
     color: goldenrod;
     font-size: 1.2rem;
     font-weight: 500;
@@ -125,7 +125,7 @@
     letter-spacing: 5px;
 }
 
-#experience-section .experience-container .info .info-box .date {
+#experience-section .experience-wrapper .info .info-box .date {
     color: var(--title-black);
     font-size: .9rem;
     font-weight: 600;
@@ -135,7 +135,7 @@
     display: block;
 }
 
-#experience-section .experience-container .info .info-box p {
+#experience-section .experience-wrapper .info .info-box p {
     color: var(--experience-text);
     font-size: 1rem;
     font-weight: 400;
@@ -153,12 +153,12 @@
         left: 0;
     }
 
-    #experience-section .experience-container .large-icons {
+    #experience-section .experience-wrapper .large-icons {
         position: relative;
         top: -25px;
     }
 
-    #experience-section .experience-container .large-icons .square {
+    #experience-section .experience-wrapper .large-icons .square {
         display: inline-block;
         border: 30px solid #52b8ff;
         padding: 5px;
@@ -177,19 +177,19 @@
         left: 0;
     }
 
-    #experience-section .experience-container {
+    #experience-section .experience-wrapper {
         grid-template-columns: 1fr;
     }
 
-    #experience-section .experience-container .large-icons {
+    #experience-section .experience-wrapper .large-icons {
         display: none;
     }
 
-    #experience-section .experience-container .info .info-box h4 {
+    #experience-section .experience-wrapper .info .info-box h4 {
         font-size: .9rem;
     }
 
-    #experience-section .experience-container .info .info-box .date {
+    #experience-section .experience-wrapper .info .info-box .date {
         font-size: .8rem;
     }
 }

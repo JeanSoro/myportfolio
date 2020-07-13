@@ -48,11 +48,11 @@
         <a href="index.html#testimonials-section">About</a>
     </div>
     <section id="portfolio-projects">
-        <div class="container">
+        <div class="wrapper">
             <div class="project-image">
                 <div class="img" style="background: url('./img/jeans-1.jpg')"></div>
             </div>
-            <h1>E-Commerce Prototype</h1>
+            <h1>React.js E-commerce</h1>
             <div class="info">
                 <div class="buttons">
                     <a href="https://mdrnstore.netlify.app/" target="_blank"><i class="fas fa-desktop"></i> View
@@ -61,7 +61,8 @@
                         Code</a>
                 </div>
             </div>
-            <p>Allow a few seconds for products to load up as initial request to Heroku Backend is known for beign slow.
+            <p><strong>Allow a few seconds for products to load up as initial request to Heroku servers is known for
+                    being slow</strong>.
                 A cool E-commerce prototype website with core functionalities like user authentication, data persistance
                 using local storage and Stripe payment implementation.
                 The idea behind the project was to create a modern
@@ -69,10 +70,11 @@
                 shopping session, add, update, remove
                 them from their shopping cart and checkout securely!</p>
             <p>the most challenging parts of the project were: interacting with Strapi headless CMS
-                to create and consume rest api routes for the products(creating and deleting), as well user
+                to create and consume rest api routes asynchronously for the products(creating and deleting), as well
+                user
                 authentication features. Also
                 rewriting the application to implement React Hooks API and make decisions as to where to store
-                application state was an enriching experiment. P.S - Hover
+                application state was an enriching experiment.P.S - Hover
                 on the
                 icons below for a
                 cool
@@ -105,7 +107,7 @@
         </div>
     </section>
     <footer>
-        <div class="social-container">
+        <div class="social-wrapper">
             <a href="#"><i class="fab fa-twitter"></i> </a>
             <a href="https://github.com/JeanSoro" target="_blank"><i class="fab fa-github"></i> </a>
             <a href="https://www.linkedin.com/in/sorojean/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -114,6 +116,11 @@
         <h6>Web Developer</h6>
     </footer>
     <script src="js/app.js"></script>
+    <!-- Barba Core -->
+    <script src="https://unpkg.com/@barba/core"></script>
+
+    <!-- GSAP for animation -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
 </body>
 
 </html>

@@ -21,12 +21,14 @@
 </head>
 
 <body>
+
     <header id="brand">
-        <div class="animated pulse logo">
+        <!-- <div class="animated pulse fast logo"> -->
+        <div class="logo">
             <a href="index.html" class="name">Jean Soro </a>
         </div>
 
-        <div class="header-menu">
+        <div class="header-menu wow bounceInUp" data-wow-duration="2s">
             <a href="index.html">Home</a>
             <a href="index.html#services-section">Skills</a>
             <a href="index.html#portfolio-section">Projects</a>
@@ -41,6 +43,7 @@
             <i class="fas fa-bars"></i>
         </div>
     </header>
+
     <div class="mobile-menu">
         <a href="index.html">Home</a>
         <a href="index.html#services-section">Skills</a>
@@ -49,10 +52,12 @@
         <a href="index.html#blog-section">Blog</a>
         <a href="index.html#testimonials-section">About</a>
     </div>
+
+
     <section id="top">
-        <div class="container">
-            <div class="info">
-                <div class="blue-square"></div>
+        <div class="wrapper">
+            <div class="info wow zoomInRight" data-wow-duration="3s">
+                <!-- <div class="blue-square"></div> -->
                 <h1>Jean Soro</h1>
                 <p>Welcome to my page!</p>
                 <a href="index.html#portfolio-section">Resume</a>
@@ -62,30 +67,35 @@
             </div>
         </div>
     </section>
-    <section class="wow slideInLeft" id="services-section">
-        <div class="container">
+
+    <section class="wow slideInLeft" id="services-section" data-wow-delay="0s">
+        <div class="wrapper">
             <div class="title">
                 <div class="circle"></div>
                 <h1>Skills</h1>
             </div>
-            <div class="services-container">
+            <div class="services-wrapper">
                 <div class="box blue">
                     <i class="fab fa-html5"></i> <i class="fab fa-react"></i> <i class="fab fa-js"></i>
                     <h5>Front-End Development</h5>
-                    <p>I write and debug code using latest versions of core Front-End programming languages like HTML5,
+                    <p>I write and debug code using latest versions of core Front-End programming languages like
+                        HTML5,
                         CSS3(SASS) and JavaScript ES6, CSS frameworks like BootStrap4 and
-                        Tailwind. My framework of choice as far as client side Javascript is React,
-                        but I am open to getting up to speed and productive with Angular or Vue.js if needed, as I still
+                        Tailwind. My library of choice for the client side of Javascript is React,
+                        but I am open to getting up to speed and productive with other frameworks if needed, as
+                        I
+                        still
                         maintain a focus on core Vanilla Javascript fundamentals that transcend frameworks.
-                        I automate my workflow with tools like parcels, Gulp or Webpack.</p>
+                        I automate my workflow with tools like Gulp and Webpack.</p>
                 </div>
                 <div class="box red">
                     <i class="fas fa-chart-bar"></i><i class="fas fa-shopping-cart"></i>
                     <h5>E-Commerce / Analytics</h5>
-                    <p>Knowledge of Shopify CMS platform. I create and optimize stores for speed and
+                    <p>Knowledge of Shopify and WooCommerce CMS platforms. I create and optimize stores for speed and
                         profitability, using best UX practices and relevant Shopify apps.
                         Using Google Marketing Platform applications to analyze online stores data and
-                        come up with ways to improve traffic/bounce rates, speed and content.
+                        come up with ways to improve traffic/bounce rates, speed and content. Currently getting
+                        up to speed with Shopify theme development from scratch.
                     </p>
                     <!-- <i class="fas fa-database"></i><i class="fab fa-php"></i>
                     <h5>Currently learning: Back-End Development</h5>
@@ -96,23 +106,28 @@
                 <div class="box yellow">
                     <i class="fas fa-pen-fancy"></i><i class="fas fa-tachometer-alt"></i>
                     <h5>Optimization / Testing</h5>
-                    <p>Responsive UI/UX using modern native CSS3 methods such as Media Queries, Flexbox and CSS Grid.
-                        Accessibility best practices and Cross-browser compatibility while focusing on rendering speed.
+                    <p>Responsive UI/UX using modern native CSS3 methods such as Media Queries, Flexbox and CSS
+                        Grid.
+                        Accessibility best practices and Cross-browser compatibility while focusing on rendering
+                        speed.
                         BEM
-                        methodology for clean and re-usable code when needed. Debugging JavaScript with chrome developer
+                        methodology for clean and re-usable code when needed. Debugging JavaScript with native
+                        browsers
                         tools.
                     </p>
                 </div>
             </div>
         </div>
     </section>
+
     <section class="wow slideInRight" data-wow-offset="65" data-wow-delay="0s" id="portfolio-section">
-        <div class="container">
+
+        <div class="wrapper">
             <div class="title">
                 <div class="square"></div>
                 <h1>Projects</h1>
             </div>
-            <div class="portfolio-container">
+            <div class="portfolio-wrapper">
                 <a href="project3.html" class="box display1">
                     <div class="dp-image">
                         <div class="hover-bg">
@@ -126,7 +141,7 @@
                     <div class="dp-image">
                         <div class="hover-bg">
                             <div class="title">
-                                <div class="text">Raptors Championship Tour</div>
+                                <div class="text">Html email marketing campaign</div>
                             </div>
                         </div>
                     </div>
@@ -135,7 +150,7 @@
                     <div class="dp-image">
                         <div class="hover-bg">
                             <div class="title">
-                                <div class="text">Restaurant App</div>
+                                <div class="text">Restaurant Website</div>
                             </div>
                         </div>
                     </div>
@@ -153,7 +168,7 @@
                     <div class="dp-image">
                         <div class="hover-bg">
                             <div class="title">
-                                <div class="text">React Car dealership</div>
+                                <div class="text">React.js Car dealership</div>
                             </div>
                         </div>
                     </div>
@@ -162,7 +177,7 @@
                     <div class="dp-image">
                         <div class="hover-bg">
                             <div class="title">
-                                <div class="text">Real Estate App</div>
+                                <div class="text">PHP/Laravel Custom CMS</div>
                             </div>
                         </div>
                     </div>
@@ -171,7 +186,7 @@
                     <div class="dp-image">
                         <div class="hover-bg">
                             <div class="title">
-                                <div class="text">React E-commerce</div>
+                                <div class="text">React.js E-commerce</div>
                             </div>
                         </div>
                     </div>
@@ -179,12 +194,13 @@
             </div>
         </div>
     </section>
+
     <section id="experience-section">
-        <div class="container">
+        <div class="wrapper">
             <div class="large-title">
                 EXPERIENCE
             </div>
-            <div class="experience-container">
+            <div class="experience-wrapper">
                 <div class="large-icons">
                     <div class="square">
                         <div class="blue-box">
@@ -205,17 +221,22 @@
                 <div class="info">
                     <div class="info-box">
                         <h4>Freelance front-end developer - @jeansoro</h4>
-                        <span class="date">August 2019 - November 2019</span>
-                        <p>- Development/deployment of personal web apps using best UX/UI practices, focus on responsive
+                        <span class="date">November 2019 - Current</span>
+                        <p>- Development/deployment of websites/ applications using UX/UI best practices, focus on
+                            responsive
                             design, accessibility / cross-browser compatibility, and modular code.
-                            - JAM Stack (OOP/Functional JavaScript using {ES6}, React, APIs calls using Promise based
-                            library {Axios}). Jquery as
-                            needed. GIT version control,automated build tools ( i.e: Gulp, Webpack). Currently learning
-                            Redux and PHP7.
+                            - Knowledge and Implementation of Object Oriented JavaScript using {ES6} - React +
+                            Redux/ContextAPI state managements. I Use the Fetch API and Axios to make asynchronous API
+                            calls
+                            library. Confident handle of Wordpress / WooCommerce theme development, as well as Jquery if
+                            necessary. GIT version
+                            control,automated build tools ( i.e: Gulp, Webpack). Currently
+                            learning
+                            Shopify theme development from scratch.
                         </p>
                     </div>
                     <div class="info-box">
-                        <h4>Content Editor/Web producer - NRML Clothing Inc (Shopify+ Account)</h4>
+                        <h4>Webmaster (E-Commerce Manager) - NRML Clothing Inc (Shopify+ Account)</h4>
                         <span class="date">September 2018 - May 2019</span>
                         <p>- Optimized E-commerce platform using UX/UI best practices during final
                             stage of development to ensure smooth website launch.
@@ -226,7 +247,9 @@
                             Shopify+
                             Merchant success manager to come up
                             with
-                            creative e-commerce solution - Lead team of 6 - Implemented SEO strategy that resulted in
+                            creative e-commerce solution - Lead team of 6 - Implemented SEO strategy that
+                            resulted
+                            in
                             45% increase
                             in
                             traffic to site, as
@@ -237,21 +260,23 @@
         </div>
     </section>
     <section id="blog-section">
-        <div class="container">
+        <div class="wrapper">
             <div class="title">
                 <h1>DEV CORNER</h1>
             </div>
-            <div class="blog-container">
+            <div class="blog-wrapper">
                 <!---start of post------>
                 <a href="https://medium.com/@LaSoft/node-js-vs-php-e7f882f13c48" target="_blank" class="post">
                     <div class="post-img" style="background: 
                         url('./img/phpimage.png');"></div>
                     <div class="details">
                         <h4>PHP or NODE.JS ?</h4>
-                        <p>I came across this article after attending a meetup where the conversation revolved around
+                        <p>I came across this article after attending a meetup where the conversation revolved
+                            around
                             this topic
                             As many new developers' first programming language of choice tend to be JavaScript
-                            given all the progress it has made over the years and its ability to be used on the front
+                            given all the progress it has made over the years and its ability to be used on the
+                            front
                             and back end,
                             deciding to add server-side skills to your arsenal can be tricky.</p>
                         <p>
@@ -274,7 +299,8 @@
                         <h4>2020 Web Development Roadmap</h4>
                         <p>I came across this article on FreecodeCamp as I continue
                             my journey in web development and believe that it is an
-                            invaluable guide to all aspiring and current web developers. Lorem ipsum dolor sit amet.
+                            invaluable guide to all aspiring and current web developers. Lorem ipsum dolor sit
+                            amet.
                         </p>
                         <p>The road maps look intimidating at first sight but
                             as mentioned by the author, focus on the journey, not on every skill mentioned !
@@ -296,7 +322,8 @@
                         <h4>Framework Overload!</h4>
                         <p>As modern Frameworks and Libraries continuously pop out of nowhere,
                             it can be overwhelming being a Front-End developer. My suggestion when
-                            wanting to pick up a Framework to either improve employability or take on a new challenge
+                            wanting to pick up a Framework to either improve employability or take on a new
+                            challenge
                             is: do your research but most importantly build something!
                         </p>
                         <p>Look at the area where you live, which frameworks are the most in demand?
@@ -344,11 +371,13 @@
                         <p>“If all you have is a hammer, everything looks like a nail.”
 
                         </p>
-                        <p>As developers, it is very easy to stick to the technology that we enjoy working with the
+                        <p>As developers, it is very easy to stick to the technology that we enjoy working with
+                            the
                             most, while dismissing everything
                             else.
                             While I agree that there are industry standards to follow,
-                            writing code and solving problems is ultimately to generate value to our stakeholders.
+                            writing code and solving problems is ultimately to generate value to our
+                            stakeholders.
                             Critical thinking trumps knowledge of a particular technology!
                         </p>
                     </div>
@@ -369,9 +398,12 @@
                         <h4>Confidence In The Workplace</h4>
                         <p>I probably read this article everyday, as it is so relevant
                             not only to the tech industry, but life in general.
-                            We all battle anxiety in the workplace, feelings of inadequacy AKA imposter syndrome.
-                            While some of us have an easier time dealing with such feelings, others really struggle.
-                            The result is not only work productivity, but personal lives being affected negatively.
+                            We all battle anxiety in the workplace, feelings of inadequacy AKA imposter
+                            syndrome.
+                            While some of us have an easier time dealing with such feelings, others really
+                            struggle.
+                            The result is not only work productivity, but personal lives being affected
+                            negatively.
                             this article will feature on this blog section forever.
                         </p>
                     </div>
@@ -386,12 +418,12 @@
         </div>
     </section>
     <section id="testimonials-section">
-        <div class="container">
+        <div class="wrapper">
             <div class="title">
                 <div class="square"></div>
                 <h1>About Me</h1>
             </div>
-            <div class="testimonials-container">
+            <div class="testimonials-wrapper">
                 <div class="testimonial-sides testimonial-left-image">
                     <div class="person-img"
                         style="background: url('https://www.f05.uni-stuttgart.de/img/titelfbbroschuereei.jpg?__scale=w:320,h:320,cx:199,cy:0,cw:1194,ch:1194')">
@@ -415,11 +447,13 @@
                     <p>
                         I am an enthusiastic Web Developer (Front-End) looking to put my technical skills to
                         good use!
-                        I am curious about, breathe and love everything technology related, and am constantly sharpening
+                        I am curious about, breathe and love everything technology related, and am constantly
+                        sharpening
                         my skills to
                         prepare myself to solve
                         bigger and better problems
-                        in a creative way, while keeping it all simple. Not afraid to give or ask for help, full-stack
+                        in a creative way, while keeping it all simple. Not afraid to give or ask for help,
+                        full-stack
                         development is my long-term vision.
                     </p>
                 </div>
@@ -434,8 +468,10 @@
             </div>
         </div>
     </section>
+
+
     <footer>
-        <div class="social-container">
+        <div class="social-wrapper">
             <a href="#"><i class="fab fa-twitter"></i> </a>
             <a href="https://github.com/JeanSoro" target="_blank"><i class="fab fa-github"></i> </a>
             <a href="https://www.linkedin.com/in/sorojean/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -446,6 +482,7 @@
     <a href="#brand" id="back-to-top">
         <i class="backToTopBtn fas fa-arrow-up fa-2x"></i>
     </a>
+
     <script src="js/app.js"></script>
     <script src="js/polyfill.js"></script>
     <script src="js/wow.min.js"></script>

@@ -48,31 +48,37 @@
         <a href="index.html#testimonials-section">About</a>
     </div>
     <section id="portfolio-projects">
-        <div class="container">
+        <div class="wrapper">
             <div class="project-image">
-                <div class="img" style="background: url('./img/raptors-hero.jpg')">
+                <div class="img" style="background: url('./img/email-main.png')">
                 </div>
             </div>
-            <h1>Toronto Raptors Championship Tour</h1>
+            <h1>HTML EMAIL MARKETING CAMPAIGN</h1>
             <div class="info">
                 <div class="buttons">
-                    <a href="https://raptorscanadiantour.netlify.com" target="_blank"><i class="fas fa-desktop"></i>
+                    <a href="https://crazyvacationsdeals.netlify.app/" target="_blank"><i class="fas fa-desktop"></i>
                         View Project</a>
-                    <a href="https://github.com/JeanSoro/raptorsChamp" target="_blank"><i class="fas fa-code"></i>
+                    <a href="https://github.com/JeanSoro/htmlEmailCampaignXfoundationFramework" target="_blank"><i
+                            class="fas fa-code"></i>
                         View Code</a>
                 </div>
             </div>
-            <p>A prototype for a modern web app created from scratch based on how I would have wanted the Toronto
-                Raptors to
-                celebrate their 2019 NBA Championship triumph. This project was truly fun to build and used only HTML5
-                and CSS3.
-                The focus was on making a fully responsive page. As you can see by looking at the source code, Flexbox
-                and CSS Grid
-                were used . As well, This was an opportunity to get comfortable with creating cool background
-                color effects
-                and CSS filters to achieve grainy / throwback photo effects as illustrated in the image of the team
-                holding the trophy. One additional page, as well as "back to top" button might be created to enhance
-                this project in the future. P.S - Hover on the icons below for a cool effect!
+            <p>A fully responsive, mobile first html email created for a vacation agency's marketing campaign from
+                scratch. The kicker here is <strong>foundation's html email framework</strong> that I used to speed up
+                the development
+                time of this html email instead of using regular tables synthax
+                and inline css. This framework is great in the sense that it automatically minifies all assets(scripts
+                and css), optimizes images and inlines all css styles before deployment.
+                <p>
+                    The focus was on making a fully responsive email capable of rendering on every email client. To
+                    achieve
+                    that, I had to run tests using automated tools offered by the likes of <strong>litmus and
+                        mailchimp.</strong>
+                    The most challenging part of this project was ensuring that upon running the build command
+                    (production)
+                    , all inline css styles reflected the sass version implement in development using the framework
+                    P.S - Hover on the icons below for a cool effect!
+                </p>
             </p>
             <div class="technologies">
                 <h3>Technologies</h3>
@@ -105,7 +111,7 @@
 
     </section>
     <footer>
-        <div class="social-container">
+        <div class="social-wrapper">
             <a href="#"><i class="fab fa-twitter"></i> </a>
             <a href="https://github.com/JeanSoro" target="_blank"><i class="fab fa-github"></i> </a>
             <a href="https://www.linkedin.com/in/sorojean/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -114,6 +120,11 @@
         <h6>Web Developer</h6>
     </footer>
     <script src="js/app.js"></script>
+    <!-- Barba Core -->
+    <script src="https://unpkg.com/@barba/core"></script>
+
+    <!-- GSAP for animation -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
 </body>
 
 </html>
