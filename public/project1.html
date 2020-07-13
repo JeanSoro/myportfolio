@@ -19,6 +19,7 @@
 </head>
 
 <body>
+
     <header>
         <div class="logo">
             <a href="index.html" class="name">Jean Soro</div>
@@ -47,66 +48,94 @@
         <a href="index.html#blog-section">Blog</a>
         <a href="index.html#testimonials-section">About</a>
     </div>
-    <section id="portfolio-projects">
-        <div class="container">
-            <div class="project-image">
-                <div class="img"
-                    style="background: url('https://cdn.dribbble.com/users/522558/screenshots/4271307/___-_____-3.gif')">
+
+    <main data-barba="container" data-barba-namespace="home">
+
+        <section id="portfolio-projects">
+            <div class="wrapper">
+                <div class="project-image">
+                    <div class="img" style="background: url('./img/dashboard-main.png')">
+                    </div>
+                </div>
+                <h1>PHP/Laravel Custom CMS</h1>
+                <div class="info">
+                    <div class="buttons">
+                        <!-- <a href="https://react-real-estate-bbd98.web.app" target="_blank"><i class="fas fa-desktop"></i>
+                            View Project</a>
+                        <a href="https://github.com/JeanSoro/react-real-estate" target="_blank"><i
+                                class="fas fa-code"></i>
+                            View Code</a> -->
+                        <a href="https://consulate-restaurant.herokuapp.com/" target="_blank"><i
+                                class="fas fa-desktop"></i>
+                            View Project Front-End</a>
+                        <a href="https://consulate-restaurant.herokuapp.com/login" target="_blank"><i
+                                class="fas fa-desktop"></i>
+                            Access Admin Back-End</a>
+                        <a href="https://github.com/JeanSoro/reactlxlaravelrestaurant" target="_blank"><i
+                                class="fas fa-code"></i>
+                            View Code</a>
+                    </div>
+                </div>
+                <p><strong>heroku servers cause slow initial app loading, please be patient.</strong> A modern web
+                    app created from
+                    scratch where I implemented a responsive design and REST API standards
+                    for a hip fast food
+                    chain restaurant to build the front end UI and a pre-made template with a primarily desktop design
+                    for the admin dashboard.
+                    Using PHP7 / Laravel and MySQL in this project not only allowed me to use data stored in the
+                    database to display menu and store information
+                    on the front end but collect customers reservation time through forms to save them in the database
+                    as well in order for
+                    the restaurant's staff to have access to it from the admin dashboard when needed. On the admin side,
+                    user authentication was implemented so staff members have to login using their credentials to access
+                    the dashboard.Depending
+                    on
+                    their roles(managers vs employees), I restricted the display of selected data. </p>
+                <p>
+                    <strong>Use: email: jill@gmail.com password: 12345678 to login to backend.</strong> Because this app
+                    is a CRUD, staff
+                    can interact with the dashboard UI in order to access
+                    reservations, create, consult, edit and delete menu items, menu categories, create employee profiles
+                    wih either admin role to have access to private information, or regular access to view information
+                    such as the reservations list,
+                    overall app settings, SEO settings and much more based on their role.
+                    The most challenging parts of this project were creating seeders to generate fake data to work with,
+                    displaying the charts data by assembling accurate SQL queries and interacting with the chart library
+                    using Javascript and PHP.
+                    Like all my projects, this is ongoing and I will be adding an option in the front end for customers
+                    to sign up for special offers.
+                    by. P.S - Hover
+                    on the
+                    icons below for a
+                    cool
+                    effect!</p>
+
+                <div class="technologies">
+                    <h3>Technologies</h3>
+                    <div class="icons">
+                        <div class="icon">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/500px-HTML5_logo_and_wordmark.svg.png"
+                                alt="image icon">
+                        </div>
+                        <div class="icon">
+                            <img src="./img/reactpng_70x70.png">
+                        </div>
+                        <div class="icon">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/500px-Unofficial_JavaScript_logo_2.svg.png"
+                                alt="image icon">
+                        </div>
+                        <div class="icon">
+                            <img src="https://www.unionnet.jp/wp/wp-content/uploads/2014/04/20140409-2.png"
+                                alt="image icon">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <h1>React Real Estate</h1>
-            <div class="info">
-                <div class="buttons">
-                    <a href="https://react-real-estate-bbd98.web.app" target="_blank"><i class="fas fa-desktop"></i>
-                        View Project</a>
-                    <a href="https://github.com/JeanSoro/react-real-estate" target="_blank"><i class="fas fa-code"></i>
-                        View Code</a>
-                </div>
-            </div>
-            <p>A fully responsive and modern web app created from scratch using a design for real estate companies
-                advertising their properties.
-                Using React.js in this project allowed me to display sorted and filtered dummy data that I created to
-                mimic data coming from a back-end server based on user feedback.</p>
-            <p>
-                This allows the user to interact with the UI in order to sort and search properties by prices,
-                locations,
-                extra amenities, number of rooms, etc…Setting and manipulating state to populate forms fields was the
-                most challenging part of this project. Like all my projects,
-                this is ongoing and will be adding a landing page, Use react router, hooks and pagination as time goes
-                by. P.S - Hover
-                on the
-                icons below for a
-                cool
-                effect!</p>
+        </section>
+    </main>
 
-            <div class="technologies">
-                <h3>Technologies</h3>
-                <div class="icons">
-                    <div class="icon">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/500px-HTML5_logo_and_wordmark.svg.png"
-                            alt="image icon">
-                    </div>
-                    <div class="icon">
-                        <img src="./img/reactpng_70x70.png">
-                    </div>
-                    <div class="icon">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/500px-Unofficial_JavaScript_logo_2.svg.png"
-                            alt="image icon">
-                    </div>
-                    <div class="icon">
-                        <img src="https://www.unionnet.jp/wp/wp-content/uploads/2014/04/20140409-2.png"
-                            alt="image icon">
-                    </div>
-
-                </div>
-            </div>
-
-
-        </div>
-
-    </section>
     <footer>
-        <div class="social-container">
+        <div class="social-wrapper">
             <a href="#"><i class="fab fa-twitter"></i> </a>
             <a href="https://github.com/JeanSoro" target="_blank"><i class="fab fa-github"></i> </a>
             <a href="https://www.linkedin.com/in/sorojean/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -114,7 +143,14 @@
         <h5>copyright &copy; 2020 Jean Soro. All rights reserved.</h5>
         <h6>Web Developer</h6>
     </footer>
-    <script src="../js/app.js"></script>
+
+
+
+
+
+    <script src="./js/app.js"></script>
+
+
 </body>
 
 </html>

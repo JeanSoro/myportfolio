@@ -4,7 +4,7 @@ footer {
 
 }
 
-footer .social-container {
+footer .social-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
@@ -15,7 +15,7 @@ footer .social-container {
     margin: 0 auto;
 }
 
-footer .social-container a {
+footer .social-wrapper a {
     font-size: 3rem;
     color: #8e8f91;
     text-decoration: none;
@@ -25,7 +25,7 @@ footer .social-container a {
     display: inline-block;
 }
 
-footer .social-container a:hover {
+footer .social-wrapper a:hover {
     color: var(--mainGreen);
 }
 
